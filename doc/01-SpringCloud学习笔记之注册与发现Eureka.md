@@ -416,7 +416,7 @@ public class Application {
 
 #### 访问测试
 
-![eureka-single-server](img/eureka-single-server.png)
+![eureka-single-server](img/eureka-single-provider.png)
 
 ## 高可用注册中心
 

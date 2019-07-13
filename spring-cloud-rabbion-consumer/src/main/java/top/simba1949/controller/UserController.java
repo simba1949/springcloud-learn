@@ -6,9 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import top.simba1949.common.UserDTO;
 
-import javax.annotation.PostConstruct;
 import java.net.URI;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
