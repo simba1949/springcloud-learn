@@ -5,33 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>top.simba1949</groupId>
-    <artifactId>springcloud-learn</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>spring-cloud-feign-provider-one</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>spring-cloud-eureka-single-server</module>
-        <module>spring-cloud-eureka-single-service-provider</module>
-        <module>spring-cloud-eureka-multi-server-one</module>
-        <module>spring-cloud-eureka-multi-server-two</module>
-        <module>spring-cloud-eureka-multi-server-three</module>
-        <module>spring-cloud-rabbion-provider-one</module>
-        <module>spring-cloud-rabbion-provider-two</module>
-        <module>spring-cloud-rabbion-consumer</module>
-        <module>spring-cloud-hystrix-provider</module>
-        <module>spring-cloud-hystrix-consumer</module>
-        <module>spring-cloud-hystrix-dashboard</module>
-        <module>spring-cloud-hystrix-dashboard-service</module>
-        <module>spring-cloud-feign-provider-one</module>
-        <module>spring-cloud-feign-provider-two</module>
-        <module>spring-cloud-feign-consumer</module>
-    </modules>
 
     <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.1.5.RELEASE</version>
-    <relativePath /> <!-- lookup parent from repository -->
-</parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.5.RELEASE</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
 
     <dependencyManagement>
         <dependencies>
@@ -79,6 +61,12 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- eureka client，用于注册与发现 -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
 
     </dependencies>
 
