@@ -2,12 +2,11 @@ package top.simba1949;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author SIMBA1949
- * @date 2019/7/12 14:21
+ * @date 2019/7/13 19:38
  */
 @EnableDiscoveryClient
 @SpringBootApplication
