@@ -1278,3 +1278,6 @@ public class Application {
 }
 ```
 
+#### 访问测试
+
+![zipkin](img/zipkin.png)
